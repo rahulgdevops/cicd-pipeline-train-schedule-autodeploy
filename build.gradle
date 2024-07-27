@@ -24,8 +24,8 @@ task zip(type: Zip) {
 		include "views/**"
 	}
 	destinationDirectory = layout.buildDirectory.dir('dist')
-	from layout.buildDirectory.dir("toArchive")
-	//baseName "trainSchedule"
+	from layout.buildDirectory.dir("trainSchedule")
+	baseName "trainSchedule"
 }
 
 //declare task dependencies
