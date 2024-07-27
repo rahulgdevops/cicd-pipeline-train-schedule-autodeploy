@@ -25,7 +25,7 @@ task zip(type: Zip) {
 	}
 	destinationDirectory = layout.buildDirectory.dir('dist')
 	from layout.buildDirectory.dir("trainSchedule")
-	baseName "trainSchedule"
+	//baseName "trainSchedule"
 }
 
 //declare task dependencies
