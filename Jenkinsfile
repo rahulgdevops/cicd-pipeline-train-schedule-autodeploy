@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "bhavukm" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "mohitkhokhar172/train-schedule"
+        //be sure to replace "rahulgdevops" with your own Docker Hub username
+        DOCKER_IMAGE_NAME = "rahulgdevops/train-schedule"
     }
     stages {
         stage('Build') {
